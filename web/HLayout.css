@@ -1,0 +1,70 @@
+body {
+    background-image: url("Images/homeimg3.jpg");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #624aa1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-right: 1px solid #624aa1;
+    overflow-y: auto;
+    
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration:none;
+    border-bottom:1px solid white;
+    font-weight:bold;
+}
+
+.sidebar a:hover {
+    background-color: #7a5ecb;
+}
+
+.topbar {
+    width: calc(100% - 250px);
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 250px;
+    background-color: #624aa1;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    z-index: 1000;
+}
+
+.profile-container {
+    display: none;
+    background: linear-gradient(to right, #a18cd1, #fbc2eb); 
+    border-radius: 10px;
+    padding: 15px;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    width: 300px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.profile-container p {
+    color: black;
+}
+
+#edit{
+    margin-left:40% ;
+    color:white;
+    background:#624aa1;
+}
